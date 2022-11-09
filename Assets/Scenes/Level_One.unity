@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb420ac8f1c0cbb4da7e6bf0c0e6bb31, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.1766493
+      value: 2.176649
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb420ac8f1c0cbb4da7e6bf0c0e6bb31, type: 3}
       propertyPath: m_LocalScale.y
@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb420ac8f1c0cbb4da7e6bf0c0e6bb31, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.66646206
+      value: 0.6664621
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb420ac8f1c0cbb4da7e6bf0c0e6bb31, type: 3}
       propertyPath: m_LocalPosition.x
@@ -596,6 +596,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &806312055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b473f3efaae2124a9e33ba949330a3c, type: 3}
+  m_PrefabInstance: {fileID: 308751731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &806312056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806312055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36469748242a86e459a69436a81f1d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1264,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 233521054208544806, guid: 4dc5922bfdcc44a48977c07f2d4cd901, type: 3}
+--- !u!1 &1730477895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bb420ac8f1c0cbb4da7e6bf0c0e6bb31, type: 3}
+  m_PrefabInstance: {fileID: 200382617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1730477898
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730477895}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cfeebdd4a43b2b04f9c2e994015dff4a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1807669806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,6 +1383,40 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1823745326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 15b84a7816368f745b038ac6c19560b7, type: 3}
+  m_PrefabInstance: {fileID: 1486585178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1823745327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823745326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36469748242a86e459a69436a81f1d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1834924863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 463111fbd0259b34d8569079e855dde5, type: 3}
+  m_PrefabInstance: {fileID: 1230939021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1834924864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834924863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36469748242a86e459a69436a81f1d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1955504563 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8890226400965352842, guid: 4dc5922bfdcc44a48977c07f2d4cd901, type: 3}
