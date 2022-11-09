@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlowerAnim : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     void Start()
     {
         iTween.PunchScale(gameObject, iTween.Hash(
